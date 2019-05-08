@@ -1,0 +1,40 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+
+	background-color: #282849;
+	color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  z-index: 1;
+  max-width: 33%;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #F1C638;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1;}
+}
+
+img {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  transform: translate(-50%, -50%) scale(0.5);
+  animation: fadein 0.5s;
+}

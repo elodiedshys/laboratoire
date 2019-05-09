@@ -6,6 +6,9 @@ const images = [
   "image5.gif",
   "image6.gif",
   "image7.gif",
+  "image8.gif",
+  "image9.gif",
+  "image10.gif",
 ]
 
 let i = 0
@@ -19,7 +22,7 @@ function placeImage(x, y) {
 
   img.style.left = x + "px"
   img.style.top = y + "px"
-  img.style.transform = "translate(-50%, -50%) scale(0.5) rotate(" + (Math.random() * 20 - 10) + "deg)"
+  img.style.transform = "translate(-50%, -50%) scale(0.5) rotate(" + (Math.random() * 30 - 10) + "deg)"
 
   document.body.appendChild(img)
 

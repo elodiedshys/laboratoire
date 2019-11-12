@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    background-color: #282849;
+    margin: auto;
+    display: flex;
+}
+
+img {
+  height: 100vh;
+  max-width: 100vw;
+  object-fit: contain;
+  margin: auto;
+}
